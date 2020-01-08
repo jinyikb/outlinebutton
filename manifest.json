@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Outline",
+    "version": "0.2",
+    "description": "Outlines your page",
+    "browser_action": {
+        "default_icon": "favicon.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "https://outline.com/",
+        "https://outlineapi.com/"
+     ]
+}
